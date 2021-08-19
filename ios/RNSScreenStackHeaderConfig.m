@@ -433,7 +433,7 @@
   BOOL wasHidden = navctr.navigationBarHidden;
   BOOL shouldHide = config == nil || config.hide;
 
-  if (!shouldHide && !config.translucent) {
+  if (!shouldHide && !config.translucent && config.largeTitle == NO) {
     // when nav bar is not translucent we chage edgesForExtendedLayout to avoid system laying out
     // the screen underneath navigation controllers
     vc.edgesForExtendedLayout = UIRectEdgeNone;

@@ -20,7 +20,7 @@
 @property (nonatomic) UIBlurEffectStyle blurEffect;
 @property (nonatomic, retain) UIColor *color;
 @property (nonatomic) BOOL hide;
-@property (nonatomic) BOOL largeTitle;
+@property (nonatomic) BOOL *largeTitle;
 @property (nonatomic, retain) NSString *largeTitleFontFamily;
 @property (nonatomic, retain) NSNumber *largeTitleFontSize;
 @property (nonatomic, retain) NSString *largeTitleFontWeight;
